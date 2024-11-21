@@ -1,59 +1,80 @@
-.header{
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  transition: all 0.7s ease;
+  &:hover {
+    color: #fff;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .header__left {
+    flex: 1.5;
     display: flex;
-    &:hover{
-        background-color: rgb(243, 235, 235);
-        color: #fff !important;
-        cursor: pointer; 
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 122px;
+      height: 55px;
+      object-fit: cover;
     }
-    .header__left{
-        flex: 1.5;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      img{
-        width: 122px;
-        height: 55px;
-        object-fit: cover;
+  }
+  .header__center {
+    flex: 6.5;
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      gap: 5px;
+      li {
+        font-size: 16px;
+        color: #000000;
+        text-transform: uppercase;
       }
     }
-   .header__center{
-        flex: 6.5;
-      ul{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        gap: 5px;
-        li{
-          font-size: 16px;
-          color:#000000;
-          text-transform: uppercase;
-        }
-      }
-   }
-   .header__right{
+  }
+  .header__right {
     flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 7px;
-     .header__right__item{
-        padding: 7px 10px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        max-width: 200px;
-        input{
-            border: none;
-            outline: none;
-        }
+    .header__right__item__icon {
+      font-size: 20px;
+      cursor: pointer;
     }
-    .header__right__item__icon{
-       font-size: 20px;
-       cursor: pointer;
-       
+    svg {
+      width: 25px;
+      height: 25px;
+      color: #333;
+      z-index: 1;
     }
-   }
+    .header__right__item {
+      padding: 7px 10px;
+      border: 1px solid #ccc;
+      outline: none;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      max-width: 200px;
+      svg {
+        width: 25px;
+        height: 25px;
+        z-index: 1;
+        margin-right: 10px;
+      }
+      input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 16px;
+      }
+    }
+   
+  }
 }

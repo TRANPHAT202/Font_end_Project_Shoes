@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import "./Header.scss"
 import { CiSearch,CiUser,CiShoppingCart } from "react-icons/ci";
+import { FaSearch } from "react-icons/fa";
+import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
  function Header() {
   return (
     <header className='header'>
@@ -22,7 +24,8 @@ import { CiSearch,CiUser,CiShoppingCart } from "react-icons/ci";
       </div>
       <div className='header__right'>
         <div className='header__right__item'>
-          <input type="text" placeholder='Tìm kiếm' /><CiSearch />
+          <input type="text" placeholder='Tìm kiếm' />
+          <FaSearch />
         </div>
         <Link to = "/login">
         <CiUser className='header__right__icon'/>
