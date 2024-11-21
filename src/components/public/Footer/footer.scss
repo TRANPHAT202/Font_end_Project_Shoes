@@ -1,0 +1,102 @@
+.footer{
+    .footer__top{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px;
+        margin: 0 auto;
+        width: 99%;
+        max-width: 1260px;
+        .footer__top__left{
+            h4{
+                font-size: 17px;
+                font-weight: 600;
+                padding: 4px;
+            }
+            p{
+                font-size: 17px;
+                color: #000000d9;
+                font-weight: 300px;
+                padding: 8px;
+                margin: 5px;
+            }
+        }
+        .footer__top__center{
+            ul{
+                font-size: 20px;
+                font-weight: 600;
+                li{
+                    font-size: 15px;
+                    color: #000000d9;
+                    font-weight: 300px;
+                    padding: 8px;
+                    margin: 2px;
+                    
+                }
+            }
+        }
+        .footer__top__right{
+            ul{
+                .footer__top__right__icon{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 8px;
+                    font-size: 30px;
+                    }
+                }
+            }
+    }
+    .footer__mid{
+        background-color: black;
+        color: #ccc;
+       .footer__mid__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 25px;
+        margin: 20px;
+        font-weight: 700;
+
+       }
+      .footer__mid__center{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        margin: 14px;
+        gap: 5px;
+        ul{
+            font-size: 17px;
+            font-weight: 400;
+            margin: 5px;
+            padding: 3px 7px;
+            li{
+                margin-top: 10px;
+            }
+            a{
+                color: orangered;
+                font-weight: 600;
+
+            }
+        }
+      }
+      .footer__mid__bot{
+        
+      }
+     
+    }
+    .footer__bot{
+
+    }
+}
+.footer__top__left--red{
+    color: red;
+}
+.footer__top__center--yellow{
+    color:yellow;
+}
+.footer__top__right--green{
+    color: green;
+}

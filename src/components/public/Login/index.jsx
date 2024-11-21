@@ -20,7 +20,7 @@ export default function Login() {
             <input type="text" placeholder="Nhập vào mật khẩu" />
             <div className="container__content__login--from_option_itemlogin">
               <button>Đăng Nhập</button>
-              <Link to="">Quên mật khẩu?</Link>
+              <Link to="https://mwc.com.vn/forgot-pass">Quên mật khẩu?</Link>
             </div>
           </div>
           <div className="social-network-content">
@@ -43,8 +43,9 @@ export default function Login() {
             <p>
               Nếu Quý khách có vấn đề gì thắc mắc hoặc cần hỗ trợ gì thêm có thể
               liên hệ:
+              <br/>
+              Hotline: 1900.633.349 hoặc inbox Facebook
             </p>
-            <p>Hotline: 1900.633.349 hoặc inbox Facebook</p>
         </div>
       </div>
       <div className="container_content_section">
