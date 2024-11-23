@@ -1,11 +1,7 @@
 import React from "react";
 import "./footer.scss";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTiktok,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa6";
 import { SiShopee } from "react-icons/si";
 function Footer() {
   return (
@@ -13,35 +9,50 @@ function Footer() {
       <div className="footer__top">
         <div className="footer__top__left footer__top__left--red">
           <h4>GỌI MUA HÀNG ONLINE (08:00 - 21: 00 mỗi ngày)</h4>
-          <p>
-            1900.633.349 <br />
-            Tất cả các ngày trong tuần (Trừ tết Âm Lịch) <br />
-            GÓP Ý & KHIẾU NẠI (08:30 - 20:30) <br />
-            1900.633.349 <br />
-            Tất cả các ngày trong tuần (Trừ tết Âm Lịch)
-          </p>
-          <br />
+          <strong>1900.633.349</strong>
+          <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+          <p> GÓP Ý & KHIẾU NẠI (08:30 - 20:30)</p>
+          <strong>1900.633.349</strong>
+          <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
         </div>
+
         <div className="footer__top__center footer__top__center--yellow">
           <ul>
             Thông tin
-            <li> Website thương mại điện tử</li>
-            <li> Giới thiệu về MWC</li>
-            <li>Than Phiền Góp Ý</li>
-            <li>Chính sách và quy định</li>
+            <li>
+              <FaAngleRight /> Website thương mại điện tử
+            </li>
+            <li>
+              <FaAngleRight /> Giới thiệu về MWC
+            </li>
+            <li>
+              <FaAngleRight />
+              Than Phiền Góp Ý
+            </li>
+            <li>
+              <FaAngleRight />
+              Chính sách và quy định
+            </li>
           </ul>
         </div>
         <div className="footer__top__right footer__top__right--green">
           <ul>
             FAQ
-            <li>Vận chuyển</li>
-            <li>Chính sách đổi trả</li>
-            <li> Chính sách đổi trả bảo hành</li>
+            <li>
+              <FaAngleRight /> Vận chuyển
+            </li>
+            <li>
+              <FaAngleRight />
+              Chính sách đổi trả
+            </li>
+            <li>
+              <FaAngleRight /> Chính sách đổi trả bảo hành
+            </li>
             <li className="footer__top__right__icon">
               <FaFacebook />
               <FaInstagram />
               <FaYoutube />
-              <SiShopee />
+              <SiShopee color="#ec2a23" />
               <FaTiktok />
             </li>
           </ul>
