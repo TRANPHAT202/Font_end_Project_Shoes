@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { FaAngleRight, FaAngleLeft  } from "react-icons/fa6";
 import "./body.scss";
+import Section from "../Section";
 function Body() {
   useEffect(() => {
     let x = 0;
@@ -51,6 +52,7 @@ function Body() {
           <FaAngleRight className="section__next" />
           <FaAngleLeft  className="section__prev" />
         </div>
+        <Section />
       </div>
     </>
   );

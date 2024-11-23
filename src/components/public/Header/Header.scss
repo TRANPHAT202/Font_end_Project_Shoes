@@ -45,6 +45,7 @@
     align-items: center;
     gap: 7px;
     .header__right__item__icon {
+      width: 80%;
       font-size: 20px;
       cursor: pointer;
     }
@@ -52,7 +53,6 @@
       width: 25px;
       height: 25px;
       color: #333;
-      z-index: 1;
     }
     .header__right__item {
       padding: 7px 10px;
@@ -61,20 +61,18 @@
       border-radius: 8px;
       display: flex;
       align-items: center;
-      max-width: 200px;
-      svg {
-        width: 25px;
-        height: 25px;
-        z-index: 1;
-        margin-right: 10px;
-      }
+      max-width: 220px;
       input {
         border: none;
         outline: none;
         background-color: transparent;
         font-size: 16px;
       }
+      svg {
+        width: 30px;
+        height: 30px;
+        color: #333;
+      }
     }
-   
   }
 }

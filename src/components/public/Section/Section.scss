@@ -1,0 +1,103 @@
+.section_container {
+  padding: 30px 12px 40px;
+  .section_container_top {
+    margin-bottom: 32px;
+    .section_container_top__flast-sale {
+      font-size: 28px;
+      strong {
+        color: #f2611c;
+        font-weight: bold;
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      span {
+        color: #f2611c;
+        font-weight: 500;
+      }
+    }
+    h3 {
+      text-align: center;
+      font-size: 25px;
+      color: #252a2b;
+      text-transform: uppercase;
+    }
+  }
+  .section_container_content {
+    margin-top: 5px;
+    .section_container_content__list-item {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 15px;
+      row-gap: 10px;
+      .section_container_content__item {
+        position: relative;
+        overflow: hidden;
+        .section_container_content__item-img-product {
+          width: 100%;
+          object-fit: cover;
+        }
+        .section_container_content__item__title {
+          margin-top: 10px;
+          font-size: 16px;
+          color: #000;
+        }
+        .section_container_content__item__price {
+          display: block;
+          margin-top: 5px;
+          font-size: 20px;
+          color: #000;
+          text-align: center;
+        }
+        .section_container_content__item__type {
+          margin-top: 10px;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          .section_container_content__item__type__type_item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px;
+            &:hover {
+              border: 1px solid #ccc;
+              border-radius: 50%;
+              cursor: pointer;
+            }
+            img {
+              border-radius: 50%;
+            }
+          }
+        }
+        .section_container_content__item__discount {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 12px 8px 10px;
+          background-color: #f00;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 3px;
+          p {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1;
+          }
+          &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            left: 0;
+            bottom: -10px;
+            position: absolute;
+            border-color: transparent #f00;
+            border-style: solid;
+            border-width: 0 30px 10px;
+          }
+        }
+      }
+    }
+  }
+}
