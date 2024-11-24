@@ -36,6 +36,18 @@
         color: #000000;
         text-transform: uppercase;
       }
+      .header__center__list_subitem {
+        position: relative;
+
+        &:hover {
+          .header__center__subItem {
+            display: flex !important;
+          }
+        }
+      }
+      .header__center__subItem {
+        display: none !important;
+      }
     }
   }
   .header__right {
@@ -76,3 +88,4 @@
     }
   }
 }
+//

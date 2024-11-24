@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import { CiSearch , CiUser, CiShoppingCart } from "react-icons/ci";
+import { CiSearch, CiUser, CiShoppingCart } from "react-icons/ci";
+import SubMenu from "../SubMenu";
 
 function Header() {
+  const [isShowSubMenu, setIsShowSubMenu] = useState(false);
+  const handleOnMouseEnter = (event) => {
+    setIsShowSubMenu(true);
+  };
+  const handleOnMouseLeave = () => {
+    setIsShowSubMenu(false);
+  };
   return (
     <header className="header">
       <Link to={"/"} className="header__left">
@@ -11,8 +19,60 @@ function Header() {
       </Link>
       <div className="header__center">
         <ul>
-          <li>Gía ưu đãi</li>
-          <li>Giày nữ</li>
+          <li
+            className={isShowSubMenu ? "header__center__list_subitem" : ""}
+            onMouseEnter={handleOnMouseEnter}
+            onMouseLeave={handleOnMouseLeave}
+          >
+            Giá ưu đãi
+            {isShowSubMenu ? (
+              <SubMenu
+                data={[
+                  {
+                    title: "79K",
+                    href: "",
+                  },
+                  {
+                    title: "99K - 109K",
+                    href: "",
+                  },
+                  {
+                    title: "109 - 149K",
+                    href: "",
+                  },
+                ]}
+              />
+            ) : (
+              ""
+            )}
+          </li>
+          <li
+            className={isShowSubMenu ? "header__center__list_subitem" : ""}
+            onMouseEnter={handleOnMouseEnter}
+            onMouseLeave={handleOnMouseLeave}
+          >
+            Giày nữ
+            {isShowSubMenu ? (
+              <SubMenu
+                data={[
+                  {
+                    title: "Giày cao gót",
+                    href: "",
+                  },
+                  {
+                    title: "Giày thể thao",
+                    href: "",
+                  },
+                  {
+                    title: "Dép sục",
+                    href: "",
+                  },
+                ]}
+              />
+            ) : (
+              ""
+            )}
+          </li>
           <li>Giày nam</li>
           <li>Giày cặp</li>
           <li>balo - túi</li>
