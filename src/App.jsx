@@ -3,7 +3,6 @@ import TYPE_URL from "./utils/utils-path";
 import Home from "./components/public/Home";
 import Login from "./components/public/Login";
 import Body from "./components/public/Body";
-import Section from "./components/public/Section";
 function App() {
   return (
     <>
