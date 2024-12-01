@@ -58,7 +58,86 @@ function Modal({ setIsShowCart }) {
               </div>
               <IoCloseCircleOutline className="modal__content__item__delete"/>
             </div>
-
+            <div className="modal__content__item">
+              <div className="modal__content__item__left">
+                <img
+                  src="https://img.mwc.com.vn/giay-thoi-trang?w=640&h=640&FileInput=//Upload/2022/03/z3292316516429-0fd72ed68e722b102ffa98a0d7e32070.jpg"
+                  alt="img_product"
+                />
+              </div>
+              <div className="modal__content__item__right">
+                <p>
+                  Giày thể thao nữ MWC - 0623 Giày Sục Thể Thao Nữ Phối Họa Tiết
+                  Siêu Cute,Sneaker Êm Chân Đế Bằng Hot Trend
+                </p>
+                <p>Kích cỡ: 35</p>
+                <p>Màu sắc: kem</p>
+                <p>
+                  <span>1</span> x <strong>149.000₫</strong>
+                </p>
+              </div>
+              <IoCloseCircleOutline className="modal__content__item__delete"/>
+            </div>
+            <div className="modal__content__item">
+              <div className="modal__content__item__left">
+                <img
+                  src="https://img.mwc.com.vn/giay-thoi-trang?w=640&h=640&FileInput=//Upload/2022/03/z3292316516429-0fd72ed68e722b102ffa98a0d7e32070.jpg"
+                  alt="img_product"
+                />
+              </div>
+              <div className="modal__content__item__right">
+                <p>
+                  Giày thể thao nữ MWC - 0623 Giày Sục Thể Thao Nữ Phối Họa Tiết
+                  Siêu Cute,Sneaker Êm Chân Đế Bằng Hot Trend
+                </p>
+                <p>Kích cỡ: 35</p>
+                <p>Màu sắc: kem</p>
+                <p>
+                  <span>1</span> x <strong>149.000₫</strong>
+                </p>
+              </div>
+              <IoCloseCircleOutline className="modal__content__item__delete"/>
+            </div>
+            <div className="modal__content__item">
+              <div className="modal__content__item__left">
+                <img
+                  src="https://img.mwc.com.vn/giay-thoi-trang?w=640&h=640&FileInput=//Upload/2022/03/z3292316516429-0fd72ed68e722b102ffa98a0d7e32070.jpg"
+                  alt="img_product"
+                />
+              </div>
+              <div className="modal__content__item__right">
+                <p>
+                  Giày thể thao nữ MWC - 0623 Giày Sục Thể Thao Nữ Phối Họa Tiết
+                  Siêu Cute,Sneaker Êm Chân Đế Bằng Hot Trend
+                </p>
+                <p>Kích cỡ: 35</p>
+                <p>Màu sắc: kem</p>
+                <p>
+                  <span>1</span> x <strong>149.000₫</strong>
+                </p>
+              </div>
+              <IoCloseCircleOutline className="modal__content__item__delete"/>
+            </div>
+            <div className="modal__content__item">
+              <div className="modal__content__item__left">
+                <img
+                  src="https://img.mwc.com.vn/giay-thoi-trang?w=640&h=640&FileInput=//Upload/2022/03/z3292316516429-0fd72ed68e722b102ffa98a0d7e32070.jpg"
+                  alt="img_product"
+                />
+              </div>
+              <div className="modal__content__item__right">
+                <p>
+                  Giày thể thao nữ MWC - 0623 Giày Sục Thể Thao Nữ Phối Họa Tiết
+                  Siêu Cute,Sneaker Êm Chân Đế Bằng Hot Trend
+                </p>
+                <p>Kích cỡ: 35</p>
+                <p>Màu sắc: kem</p>
+                <p>
+                  <span>1</span> x <strong>149.000₫</strong>
+                </p>
+              </div>
+              <IoCloseCircleOutline className="modal__content__item__delete"/>
+            </div>
           </div>
           <div className="modal__content__bot">
             <div className="modal__content__bot__top">
