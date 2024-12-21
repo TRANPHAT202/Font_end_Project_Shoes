@@ -2,6 +2,7 @@ import React from "react";
 import "./ProductDetail.scss";
 import { MdStarBorder } from "react-icons/md";
 import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
+import { IoCartOutline } from "react-icons/io5";
 function ProductDetail() {
   return (
     <div className="container__productDetail">
@@ -133,8 +134,85 @@ function ProductDetail() {
           <strong className="container__productDetail__content__reight__training_size">
             Hướng dẫn tính Size
           </strong>
+          <div className="conatainer__productDetail__content__local">
+            <img
+              src="https://mwc.com.vn/Assets/App/images/icon_map.png"
+              className="conatainer__productDetail__content__local__map"
+            />
+            <strong className="conatainer__productDetail__content__local__title">
+              Tìm sản phảm tại SHOWROOM
+            </strong>
+          </div>
+          <div className="conatainer__productDetail__content__pay">
+            <button className="conatainer__productDetail__content__pay__now">
+              Mua ngay
+            </button>
+            <div className="conatainer__productDetail__content__add_cart">
+              <IoCartOutline className="conatainer__productDetail__content__add_cart__icon_cart" />
+              <strong className="conatainer__productDetail__content__add_cart_title">
+                Thêm vào giỏ hàng
+              </strong>
+            </div>
+          </div>
+          <div className="container__productDetail__content_interest">
+            <div className="container__productDetail__content_interest__item">
+              <img
+                className="container__productDetail__content_interest__item__img"
+                src="https://img.mwc.com.vn/files/Icon/icon3.jpg"
+                alt="img_interest"
+              />
+              <span className="container__productDetail__content_interest__item__title">
+                Bảo hành keo vĩnh viễn
+              </span>
+            </div>
+
+            <div className="container__productDetail__content_interest__item">
+              <img
+                className="container__productDetail__content_interest__item__img"
+                src="https://img.mwc.com.vn/files/Icon/icon3.jpg"
+                alt="img_interest"
+              />
+              <span className="container__productDetail__content_interest__item__title">
+                Bảo hành keo vĩnh viễn
+              </span>
+            </div>
+            <div className="container__productDetail__content_interest__item">
+              <img
+                className="container__productDetail__content_interest__item__img"
+                src="https://img.mwc.com.vn/files/Icon/icon3.jpg"
+                alt="img_interest"
+              />
+              <span className="container__productDetail__content_interest__item__title">
+                Bảo hành keo vĩnh viễn
+              </span>
+            </div>
+            <div className="container__productDetail__content_interest__item">
+              <img
+                className="container__productDetail__content_interest__item__img"
+                src="https://img.mwc.com.vn/files/Icon/icon3.jpg"
+                alt="img_interest"
+              />
+              <span className="container__productDetail__content_interest__item__title">
+                Bảo hành keo vĩnh viễn
+              </span>
+            </div>
+          </div>
         </div>
       </div>
+      <div className="container__productDetail__detail__product">
+        <div className="container__productDetail__detail__product__header">
+          <button className="container__productDetail__detail__product__header__detail_content">
+            Chi tiết sản phẩm
+          </button>
+          <button className="container__productDetail__detail__product__header__comment">
+            Bình luận
+          </button>
+        </div>
+        <div className="container__productDetail__detail__product__content">
+          <h1>ABC</h1>
+        </div>
+      </div>
+
     </div>
   );
 }
